@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 library(randomForest)
 library(xgboost)
 library(mlr)
@@ -216,3 +217,6 @@ make_prediction(lrn = xgb_lrn,tsk = tsk,sub_data = sub,subname = "xgb_-planet.cs
 make_prediction(lrn = gbm_lrn,tsk = tsk,sub_data = sub,subname = "gbm_-planet.csv")
 make_prediction(m,tsk = tsk,sub_data = sub,subname = "ens_-planet.csv")
 
+=======
+
+>>>>>>> 7d9b0798dacd81353514a93a2c4024e4703b5941
