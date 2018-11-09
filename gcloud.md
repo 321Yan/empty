@@ -14,3 +14,9 @@ gcloud compute scp [INSTANCE_NAME]:[REMOTE_FILE_PATH] [LOCAL_FILE_PATH]
 ### save a model
 save_model_hdf5(model, 'my_model.h5') \
 model <- load_model_hdf5('my_model.h5')
+
+### problem with not being in the sudo group
+#### in SKD shell
+gcloud compute ssh root@instance \
+usermod -aG sudo username
+
