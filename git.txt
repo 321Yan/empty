@@ -9,13 +9,13 @@ $ git commit -m 'info'    //escape editing stage
 $ rm -rf .git   //remove a git repo
 
 Remote repo
-$ git remote add origin https://github.com/abc  //add remote repo (only need to do once)
+$ git clone https//github.com/abc  //clone repo into a new dir
 ----------------------------------------
 !!!(first cd into the local repo)!!!
 $ git push   //push to remote repo
-$ git clone   //clone repo into a new dir
 $ git pull   //update a local repo
 ----------------------------------------
+$ git remote add origin https://github.com/abc  //add remote repo (only need to do once)
 $ git push -u origin master   //push to origin repo and master branch
 
 $ git config --global user.name 'USERNAME'
