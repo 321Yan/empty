@@ -1,0 +1,51 @@
+Basic Commands
+$ git init  //initalize Local git repo
+$ git add <file>   //add file(s) to index
+$ git add .   //add everything to index
+$ git rm --cached <file>   //rm files in index
+$ git status   //check status of working tree
+$ git commit   //commit changes in index
+$ git commit -m 'info'    //escape editing stage
+$ rm -rf .git   //remove a git repo
+
+Remote repo
+$ git remote add origin https://github.com/abc  //add remote repo (only need to do once)
+----------------------------------------
+!!!(first cd into the local repo)!!!
+$ git push   //push to remote repo
+$ git clone   //clone repo into a new dir
+$ git pull   //update a local repo
+----------------------------------------
+$ git push -u origin master   //push to origin repo and master branch
+
+$ git config --global user.name 'USERNAME'
+$ git config --global user.email 'e@eamil.com'
+
+
+if there are things dont want to commit when using
+'git add.'
+create a repo with
+$ touch .gitignore
+add the unwanted filenames into .gitignore
+if there is a unwanted dir
+add '/dirname' into .gitignore
+if there is a type of file (i.e. txt)
+add '*.txt' into .gitignore
+
+Branch
+$ git brach abc   //create a branch with name abc
+$ git checkout abc   //switch to the branch named abc
+$ git merge abc   //merge with abc branch(IN master branch)
+
+
+
+
+
+
+
+
+
+
+
+
+
