@@ -19,7 +19,7 @@ $ git remote add origin https://github.com/abc  //add remote repo (only need to 
 $ git push -u origin master   //push to origin repo and master branch
 
 $ git config --global user.name 'USERNAME'
-$ git config --global user.email 'e@eamil.com'
+$ git config --global user.email 'e@email.com'
 
 
 if there are things dont want to commit when using
