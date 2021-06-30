@@ -33,7 +33,7 @@ if there is a type of file (i.e. txt)
 add '*.txt' into .gitignore
 
 Branch
-$ git brach abc   //create a branch with name abc
+$ git branch abc   //create a branch with name abc
 $ git checkout abc   //switch to the branch named abc
 $ git merge abc   //merge with abc branch(IN master branch)
 
