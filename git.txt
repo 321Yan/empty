@@ -20,6 +20,8 @@ $ git push -u origin master   //push to origin repo and master branch
 
 $ git config --global user.name 'USERNAME'
 $ git config --global user.email 'e@email.com'
+$ git config --global credential.helper cache //to avoid type username and password everytime
+$ git config --global -- unset credential.helper //if token is changed, use this to change token
 
 
 if there are things dont want to commit when using
